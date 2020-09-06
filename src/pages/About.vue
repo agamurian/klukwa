@@ -1,8 +1,12 @@
 <template>
+<div style="background-color: #2e743e; margin: auto; text-align: center; color: #fefefe; width: 100vw; height: 100vh;">
+	
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <h1>О проекте</h1>
+    <p>Проект пленера клюква был организован анжелой Разманвой 9 лет назад, с тех пор ежегдно проходит в различных локациях, в пленере принимали участие множество известных художников</p>
+    <a href="/participants">Участники пленера</a>
   </Layout>
+</div>	
 </template>
 
 <script>

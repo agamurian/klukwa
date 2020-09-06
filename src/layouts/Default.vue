@@ -1,14 +1,18 @@
+
 <template>
   <div class="layout">
+
     <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
+      <nav class="nav" style="margin: auto; position: sticky; z-index:2;">
+        <g-link class="nav__link" to="/">Главная</g-link>
+       <g-link class="nav__link" to="/news">Новости</g-link>
+       <g-link class="nav__link" to="/plainairs">Пленеры</g-link>
+<g-link class="nav__link" to="/map">Карта</g-link>       
+       <g-link class="nav__link" to="/participants">Участники</g-link>
+        <g-link class="nav__link" to="/about">О проекте</g-link>
       </nav>
     </header>
+    <g-image alt="--------" src="./w2.png" style="margin: auto; margin-bottom: 50px; margin-top: -85px; max-width: 500px; opacity: 0.1; position: sticky; z-index: 0;" />
     <slot/>
   </div>
 </template>
@@ -22,8 +26,10 @@ query {
 </static-query>
 
 <style>
+
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	background-color: 002e44;
+  font-family: Source Sans Pro,Arial,sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
@@ -45,6 +51,8 @@ body {
 }
 
 .nav__link {
-  margin-left: 20px;
+  margin-left: 25px;	
+color: #aebede;
 }
+
 </style>
