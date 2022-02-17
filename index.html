@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <title>Клюква - превью моделей / Андрей Гооловин</title>
+</head>
+<body>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <div class="container">
+      Клюква: модель кораблика:
+      
+      <p class="small">Из фотографий была сделана первичная модель в Agisoft Metashape, после чего она дорабатывалась в Blender, из нее были удалены лишние области, а недостающие зашиты.</p>
+
+      <a href="./ship_1/index_raw.html"><div class="btn">
+         Необработанная модель
+        </div></a>
+
+      <p class="small"> После моделер уменьшил вес этой модели с помощью техник работы с низкополигональными моделями (опыт в игровой индустрии), модель в результате можно смотреть даже на мобильных устройствах</p>
+     
+      <a href="./ship_1/index_original.html"><div class="btn">
+        Обработанная тяжеловесная модель
+        </div></a>
+
+        <p class="small">количество полигонов уменьшено в 60 раз, без видимой потери качества, текстуры оптимизированы, такая модель не будет тормозить даже в AR с мобильных устройств.</p>
+      <a href="./ship_1/index.html"><div class="btn">
+        Обработанная легковесная модель
+        </div></a>
+        
+      <!--<div class="container">-->
+        <!--<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/ship_pg.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/gallery.hdr" poster="shared-assets/models/loader.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>-->
+      <!--</div>-->
+
+  </div>
+</body>
+</html>
