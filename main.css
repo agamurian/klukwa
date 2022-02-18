@@ -14,8 +14,8 @@
   color: black;
   font-family: 'Alegreya Sans', sans-serif;
   background-color:tan;
-  border: 0.1rem solid transparent;
-  border-radius: 0.5rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: bold;
@@ -24,7 +24,7 @@
 
 .btn:hover {
   background-color:bisque;
-  border-color: black;
+  border-color: #00000088;
 }
 
 .small {
